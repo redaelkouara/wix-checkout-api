@@ -1,0 +1,8 @@
+{
+  "name": "wix-checkout-api",
+  "version": "1.0.0",
+  "main": "api/create-wix-paylink.js",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
