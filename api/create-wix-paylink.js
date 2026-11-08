@@ -27,8 +27,8 @@ module.exports = async (req, res) => {
         const wixResponse = await fetch('https://www.wixapis.com/cashier/v1/payment-links', {
             method: 'POST',
             headers: {
-                'Authorization': WIX_API_KEY,
-                'wix-site-id': WIX_SITE_ID,
+                'Authorization': IST.eyJraWQiOiJQb3pIX2FDMiIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1wiaWRcIjpcIjY0ODVkODM3LTk4MTAtNDAwZC04OTRkLTk0NWFhZTE1MDA4NlwiLFwiaWRlbnRpdHlcIjp7XCJ0eXBlXCI6XCJhcHBsaWNhdGlvblwiLFwiaWRcIjpcIjkyMTM4NWU1LTc4YjQtNGUzYi05NDZmLTkyYzY4N2M1MTRiZFwifSxcInRlbmFudFwiOntcInR5cGVcIjpcImFjY291bnRcIixcImlkXCI6XCI1MjNjZDQwNS00MWM3LTQyMjAtYjUzNi0xODI0ZDZiNTFmNWNcIn19IiwiaWF0IjoxNzk0MTU5OTk4fQ.SSRV5DjA5Tzis7V-CqbHfTp3qrGEeIklHdE4AxyiZlnIN9jIJOww-AGm-nJpWnmy7_-KqbJL2JbkgmFvVTZEq9Q-lvMJMHc4_jcZenw-u0x04X1z2Bn4q1Zk_zBqjbjqGl9A5nXgH_xQMSHYYBpX4xWXS7SlScsdXg3J9TIB67A2l0lA0Vbc-JZufBsn8FRluph4JroJQ1tLylwde-77HdJiaeYmUpqsekJvqrV1h-2348jP1EWcGQ47hw0I6ar_VupANkpubJEz73jtWTyG_Xxq_jdOv8aDxRB1L4RBzww98ptWH9A_8RPsjT39KxWzILvPjRAJBdbGTWMlSEi4zQ,
+                'wix-site-id': 1a2b3c4d-5e6f-7g8h-9i0j-k1l2m3n4o5p6,
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
