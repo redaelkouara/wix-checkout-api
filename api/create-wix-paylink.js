@@ -21,6 +21,7 @@ module.exports = async (req, res) => {
     try {
         const { totalAmount, items, currency } = req.body;
 
+        // Pulls keys securely from Vercel Environment Variables
         const WIX_API_KEY = process.env.WIX_API_KEY;
         const WIX_SITE_ID = process.env.WIX_SITE_ID;
 
